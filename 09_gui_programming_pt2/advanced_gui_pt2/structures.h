@@ -27,6 +27,7 @@
 
 // AdvancedGUI struct
 typedef struct {
+    FuriMutex* mutex;
     Gui* gui;
     ViewDispatcher* view_dispatcher;
     uint32_t view_id;
